@@ -1,0 +1,101 @@
+h1{
+
+  font-family: 'Montserrat', sans-serif;
+  color: #d62d38;
+}
+h3{
+
+  background-color: #1ea94e;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+.maintitle{
+
+  text-align: center;
+  width: fit-content;
+}
+.mainbackground{
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  max-height: 300px;
+  max-width: 1000px;
+}
+
+.brand-cover{
+  display: flex;
+  justify-content: center;
+  
+}
+.App{
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 1.5fr 1.2fr 0.8fr; 
+  grid-template-areas: ". nav nav ."
+                      "section section section section"
+                      ". card card ."
+                      "footer footer footer footer"
+  ;
+  gap: 2;
+}
+
+.nav{
+  grid-area: nav;
+  display: flex;
+  justify-content: space-between;
+}
+.section{
+  grid-area: section;
+
+}
+.card{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 50px;
+  
+}
+.footer{
+  grid-area:footer
+}
+.paragraph-about{
+margin: 0px 5%;
+}
+.paragraph{
+ color: gray;
+ line-height: 250%;
+}
+.about{
+  display: flex;
+  justify-content: space-around;
+  margin: 5%;
+}
+.heading{
+  text-align:center;
+  padding:10px 0px;
+}
+.astrek{
+  color: #d62d38;
+}
+label{
+  color: gray;
+  margin: 10px 0px;
+}
+.contact-form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 30%;
+  margin: 2% auto;
+}
+.contactForm-container{
+  margin:5% 0%;
+}
+.red-line{
+  border-bottom:3px solid red;width:100px;margin:auto;
+}
+.green-line{
+  border-bottom:3px solid green;width:100px;margin:auto;
+}

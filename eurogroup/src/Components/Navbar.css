@@ -1,0 +1,33 @@
+
+
+    .navbar-container{
+        display: flex;
+      
+      }
+      .link-box{
+        margin-left: auto;
+        order: 2;
+        margin-top: 10%;
+        width: 40vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      
+      .link{
+        text-decoration: none;
+        color: black;
+        font-size: 13px;
+        cursor: pointer;
+        margin: 2%;
+       
+      }
+      .link:hover{
+        color: #00c444(145, 204, 255);
+        border-bottom: 2px solid rgb(216, 216, 216);
+      }
+      .link-style{
+        color: #167537;;
+        font-weight: 700;
+        border-bottom: 2px solid rgb(0, 0, 0);
+      }
