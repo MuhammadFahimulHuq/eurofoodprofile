@@ -99,3 +99,7 @@ label{
 .green-line{
   border-bottom:3px solid green;width:100px;margin:auto;
 }
+
+@media screen and (max-width: 1240px) {
+
+}
